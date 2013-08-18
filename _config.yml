@@ -13,8 +13,9 @@ title : Corbin Souffrant
 tagline: Personal Page
 author :
   name : Corbin Souffrant
-  email : souffra2 (at) illinois.edu
+  email : souffra2(at)illinois.edu
   github : corbins
+  twitter : loliponi
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -97,7 +98,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+    provider : false 
     google : 
         tracking_id : 'UA-123-12'
     getclicky :
