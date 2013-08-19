@@ -13,7 +13,7 @@ Developing an android application to help control hyper fuel efficient vehicles.
 ####[Theoretical Framework for Quantitative Analysis of Obfuscation Routines](/docs/qualityofobfuscation.pdf)
 *January 2013 – May 2013*
 
-Worked with Rashid Tahir and tried to determine if a measure could be made towards the goal of a framework that would be able to quantitatively determine the effectiveness of an obfuscation routine.
+Worked with Rashid Tahir and tried to determine if a measure could be made towards the goal of a framework that would be able to quantitatively determine the effectiveness of an obfuscation routine.  Click the title to read my final paper.
 
 ####UIUC CTF Team Series
 *August 2012 – December 2012*
@@ -23,4 +23,4 @@ Gave a series of presentations about Reverse Engineering skills needed for CTFs.
 ####[FRAK (Framework for Robotic Applications, K?)](/docs/frak.pdf)
 *January 2012 – February 2013*
 
-Designed and implemented a robotic framework system for applications. This included features such as abstracting the language such that specialized robots could have their feature specific hardware encapsulated, looking at application scheduling on robotic systems, and developing a suite of test applications for the robot. Used a variety of languages and libraries such as C++, Python, Android, OpenCV, and ROS
+Designed and implemented a robotic framework system for applications. This included features such as abstracting the language such that specialized robots could have their feature specific hardware encapsulated, looking at application scheduling on robotic systems, and developing a suite of test applications for the robot. Used a variety of languages and libraries such as C++, Python, Android, OpenCV, and ROS.  Click the title to read my final paper.
