@@ -1,7 +1,7 @@
 
 ---
 layout: page
-title: "Resume"
+title: "Experience"
 description: ""
 ---
 {% include JB/setup %}
