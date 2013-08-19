@@ -7,7 +7,7 @@ description: "About Me"
 
 ##About Me
 
-Hello, I'm a Senior in Computer Science at University of Illinois Urbana-Champaign.I'm planning on pursuing a career in security (Vulnerability Research and Malware Analysis are my strengths), which I encourage others to consider as a path by helping to run the special interest group for security at my school.  I also really like hard problems when it comes to software development.  Cut and Paste approaches are boring, so desigining new techniques and just research into the unknown in general are exciting.  Examples of this include my recent foray into the [demoscene](https://www.youtube.com/watch?v=g3TRZamP85c)
+Hello, I'm a Senior in Computer Science at University of Illinois Urbana-Champaign.  I'm planning on pursuing a career in security (Vulnerability Research and Malware Analysis are my strengths), which I encourage others to consider as a path by helping to run the special interest group for security at my school.  I also really like hard problems when it comes to software development.  Cut and Paste approaches are boring, so designing new techniques and just research into the unknown in general are exciting.  Examples of this include my recent foray into the [demoscene](https://www.youtube.com/watch?v=g3TRZamP85c)
 
 Things I like:
 
