@@ -18,6 +18,9 @@ As far as learning the language itself, I had to dig around the concept of "How 
 Here are some of the tutorials I found helpful:
 
 [Basic Clojure Tutorial](http://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer)
+
 [Protocols vs Multimethods](http://adambard.com/blog/structured-clojure-protocols-and-multimethods/)
+
 [Clojure Graph Library: Loom](https://github.com/aysylu/loom)
+
 [Clojure in Emacs](http://www.braveclojure.com/using-emacs-with-clojure/)
