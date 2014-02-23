@@ -13,23 +13,9 @@ I got caught up on some anime I've been watching: Sakura Trick, Sekai Seifuku Zv
 
 I mentioned yesterday that I was going to start learning Clojure for my CS242 programming assignment, and I spent a lot of today digging through that.  For some reason I had very little motivation to get started in reading tutorials, mostly because I didn't even know where to start in programming in Clojure.  Eventually I did get stuff set up, but it was already way past dinner at this point.  It interfaces really well with Emacs (obviously) and I really like that I can just compile and set the REPL namespace to my program really easily using cider.
 
-As far as learning the language itself, I had to dig around the concept of "How do I represent a node in a graph with multiple properties?"  In an OOP language, this is a simple answer, just make a class.  The problem is Clojure is not an OOP language, so I needed to rid myself of the notion of just developing a class.  Eventually I came across the notion of protocols and records, which help solve this problem, as well as allow me to extend the library in the future, which the MP will make me do anyways.  I really like how the code looks, so as a sample, here's the definition I made for the GraphProtocol I'm using:
+As far as learning the language itself, I had to dig around the concept of "How do I represent a node in a graph with multiple properties?"  In an OOP language, this is a simple answer, just make a class.  The problem is Clojure is not an OOP language, so I needed to rid myself of the notion of just developing a class.  Eventually I came across the notion of protocols and records, which help solve this problem, as well as allow me to extend the library in the future, which the MP will make me do anyways.
 
-{% highlight Clojure}
-;;I based my implementation off of the library Loom
-
-;;Protocol to represent directed graph;
-(defprotocol GraphProtocol
-  (cities [graph] "Returns the list of cities in the graph.")
-  (routes [graph] "Returns the list of routes in the graph.")
-  (add-cities [graph cities] "Adds cities to the graph.")
-  (add-routes [graph routes] "Adds routes to the graph.")
-  (remove-cities [graph cities] "Removes cities from the graph.")
-  (remove-routes [graph routes] "Removes routes from the graph.")
-  (clear-graph [g] "Removes all cities and routes from the graph."))
-{% endhighlight %}
-
-See?  Super clean and super awesome.  For anyone interested in learning more about Clojure, I'll share a few articles that I found helpful:
+Here are some of the tutorials I found helpful:
 
 [Basic Clojure Tutorial](http://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer)
 [Protocols vs Multimethods](http://adambard.com/blog/structured-clojure-protocols-and-multimethods/)
