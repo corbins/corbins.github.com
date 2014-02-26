@@ -2,7 +2,7 @@
 layout: post
 title: "I failed already\!"
 description: ""
-category: dailies
+category: daily
 tags: [productivity, school, music]
 ---
 {% include JB/setup %}

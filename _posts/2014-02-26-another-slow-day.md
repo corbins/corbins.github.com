@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Another slow day"
+description: ""
+category: daily
+tags: [school programming misc]
+---
+{% include JB/setup %}
+
+Today I spent a lot of time being OCD about various things.  I'm moving to the bay area soon, and so I've been trying to keep up with Craigslist, to see if there are any interesting houses being posted.  I have a friend that will be rooming with me as well who lives in SF already, so everything cool gets forwarded to him to look at.:)  Today we came across an awesome house.  It was slightly more expensive than the original budget max, but its still affordable, and it meets literally every requirement we have for a house (I think.)  There weren't too many pictures on the listing sadly, so it could end up being a huge dud.  Mezmor is going to go check it out on Thursday and report back with more info, so my fingers are crossed.
+
+After daydreaming about the awesome life living in that house, I came to the realization that traffic is really annoying (I always come to this realization sadly), and that my commute is going to be about 45 minutes per way.  For some reason, public transportation in the bay is really crappy.  I can get from that house to San Jose in about an hour, which is reasonable, but then the 7.5 mile journey from San Jose to my office takes an additional hour.  Like seriously?  A bike is faster than that.  So I'm pretty much stuck driving.  I tried to locate some carpools of some sort that would be helpful, but came across nothing.  I'll have to ask when I start working in the office if anyone lives in the area by me.  Anyways this lead me to realize that there is a dedicated lane for carpooling, and I want to be in that lane.  How can this be done!?  Well a motorcycle is one option, but I'm not a motorcycle guy.  There exists another option!  Electric Vehicles qualify for the lane.  I went through all the ones that they had in their (short) list, that qualified, but I live 35 miles from my office probably, and I don't know if there is any sort of charging station at my office.  That seriously narrowed it down to one car who could go far enough to reach my work and back without charging... Chevy Volt.  But $40,000 for a car is too much :(  I'll probably have to lease it, and see if I can negotiate a decent rate on it.  Otherwise the commute will suck.
+
+Anyways, productivity wise...
+
+I remembered that TextSecure was paying out for pulls, so I decided to take a look at the issues that were listed.  There was one labeled "Fix Capitalization", so how could I not jump on the opportunity for an easy fix.  I spent a tiny bit of time making sure every string followed Android capitalization structure (It was suprisingly inconsistent before.) and then submitted my very first pull request ever!  And of course it's one where I look like a grammar nazi.  I feel so bad about it.  Will need to look at it later.
+
+My clojure code was such a mood kill today too.  I was getting a super unhelpful stack trace, and had 0 ideas on how to go about debugging it.  Somehow my compiler decided to spit the quote at me "Deleted code is debugged code.", so I cut everything out, and then pasted it in one function at a time until it worked.  It actually was due to some stupid syntax error where I wasn't sure how to implement a protocol inside of a record.  After I got everything squared away, I went to test it out in the REPL buffer, aaaand nothing.  Will have to write some test cases and see if I can get it working.  But it was such a productivity killer.  In the meantime I finished a rough draft for the slides for the presentation in CS460 tomorrow and wrote up a very rough grading rubric for all the labs to give to the grader.  Maybe this will get him to work faster :P
